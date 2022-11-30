@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class TemplateController {
     @GetMapping("login")
     public String getLogin(){
-        return "loginPage.html";
+        return "loginPage";
     }
     @GetMapping("courses")
     public String getCourses(){
-        return "courses.html";
+        return "courses";
     }
 }
